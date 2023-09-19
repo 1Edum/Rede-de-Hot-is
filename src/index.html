@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Página Inicial</title>
+</head>
+<body class="bg-gray-50 text-gray-600">
+    <!-- Header -->
+    <header class="flex items-center justify-between container m-auto p-4 h-24">
+        <div class="text-3xl">
+            logo
+        </div>
+        <nav>
+            <ul class="flex space-x-8 text-base text-gray-600">
+                <li><a href="" class=" hover:text-gray-900">Como reservar</a></li>
+                <li><a href="" class=" hover:text-gray-900">Sobre nós</a></li>
+                <li><a href="" class=" hover:text-gray-900">Informações</a></li>
+                <li><a href="" class=" hover:text-gray-900">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Banner --> 
+        <section class="banner" style="background: url(/src/img/hero-image-1.png);">
+            <div class="flex items-center justify-center container m-auto p-4 h-full">
+                <div class="container">
+                    <div class="text-center">
+                        <h1 class="text-gray-100 text-3xl">Onde você quer ir hoje?</h1>
+                        <p class="text-green-100">Escolha o estado e cidade para achar os melhores resorts</p>
+                    </div>
+                    <div class=" ">
+                        <form action="" class="flex items-center justify-center text-center mt-8 space-x-4">
+                            <select class="BtnSelect">
+                                <option >Escolha estado</option>
+                            </select>
+                            <select class="BtnSelect">
+                                <option value="">Escolha cidade</option>
+                            </select>
+                            <button class="BtnConfirmar">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                                </svg>
+                                Pesquisar resorts
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Destaque -->
+        <section class="destaque">
+            <div class="container mx-auto p-4 py-12">
+                <div class="flex">
+                    <div class="w-1/2">
+                        <hgroup class="space-y-4 ">
+                        <h2 class="uppercase font-semibold">Resort em Destaque</h2>
+                        <h1 class="text-4xl">Ecoresort Praia do Forte Bahia</h1>
+                        <h3>Hotel qualidade 5 estrelas</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio consequatur voluptas nesciunt ratione 
+                            exercitationem omnis! Aperiam omnis porro, asperiores suscipit, voluptas officia repellendus quasi, 
+                            ipsum assumenda quaerat corporis atque expedita.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo deleniti repellat cum possimus necessit
+                        </p>
+                        <button class="BtnConfirmar flex items-center">
+                            Solicitar reserva
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 ml-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                              </svg>   
+                        </button>
+                        </hgroup>
+                    </div>
+                    <div class="ml-auto">
+                        <img src="/src/img/foto01.webp" class="h-80" alt="">
+                        <div class="space-x-4 flex mt-3 justify-center">
+                            <div class="bolinhas "></div>
+                            <div class="bolaSelecionada"></div>
+                            <div class="bolinhas"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Resorts -->
+        <section>
+            <div class="container mx-auto px-4">
+                <h1 class="flex justify-center text-4xl">Conheça mais resorts</h1>
+                <div class="grid grid-cols-4 grid-rows-2 gap-4 mt-9">
+                    <div class="col-span-2 row-span-2"><img src="/src/img/foto02.webp" class="w-full h-80 object-cover" alt=""></div>
+                    <div class="col-span-2 row-span-1"><img src="/src/img/foto03.webp" class="w-full h-40 object-cover" alt=""></div>
+                    <div class="col-span-1 row-span-1"><img src="/src/img/foto04.jpeg" class="w-full h-36 object-cover" alt=""></div>
+                    <div class="col-span-1 row-span-1"><img src="/src/img/foto05.jpeg" class="w-full h-36 object-cover" alt=""></div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
