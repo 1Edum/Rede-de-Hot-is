@@ -12,10 +12,18 @@ Another concept learned was creating non-tailwind classes, using conventional CS
 
 [![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=1eLaBow7Zbo&list=PLcoYAcR89n-r1m-tMfV4qndrRWpT_rb9u)
 
-### Visualizando
+### Viewing
 
-When opening your code editor in the terminal, type
+When opening your code editor in the terminal, type:
 
 ```bash
   git clone https://github.com/1Edum/Rede-de-Hot-is.git
+```
+
+### Modifying
+
+Para modificar este projeto in the terminal, type:
+
+```bash
+  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 ```
