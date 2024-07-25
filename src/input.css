@@ -8,10 +8,10 @@
     }
   }
 @layer utilities{
-    .BtnSelect {
+    .btnSelect {
         @apply bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-600 focus:outline-none
     }
-    .BtnConfirmar{
+    .btnConfirmar{
         @apply text-yellow-900 bg-orange-500 font-medium px-3 py-2 rounded inline-flex
     }
     .bolinhas{
